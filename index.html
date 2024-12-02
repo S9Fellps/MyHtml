@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siltz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="menu">
+        <ul>
+            <li><a href="index.html">Inicial</a></li>
+            <li><a href="sobre.html">Sobre a Linguagem</a></li>
+        </ul>
+    </div>
+    <!--Seção do video-->
+    <div id="secaovideo">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MWM7zRekoyg?si=kGPi0kUVSdlx_P-o"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <!--Seção texto do video-->
+        <div id="titulovideo">
+            <h1>Os Bastidores do Fortnite: Tecnologia, Desenvolvimento e Oportunidades na Indústria de Games
+            </h1>
+            <p id="textovideo">
+                O vídeo explica como o Fortnite foi desenvolvido pela Epic Games usando a Unreal Engine, com C++ e o
+                sistema visual Blueprints para facilitar a criação de jogos. A infraestrutura do jogo, suportada pela
+                Amazon Web Services (AWS), garante a escalabilidade e o processamento de grandes volumes de dados,
+                permitindo que milhões de jogadores joguem simultaneamente.
+                Além de seu enorme sucesso, com bilhões em receitas e mais de 250 milhões de jogadores, o vídeo também
+                destaca as oportunidades de carreira na indústria de games, com alta demanda por programadores
+                qualificados interessados em trabalhar nesse setor.
+            </p>
+        </div>
+    </div>
+
+    <!--Seção do carrossel-->
+    <div id="carrossel">
+        <h2><br>Distrações</h2>
+
+        <!--Divisão dos Card-->
+        <div id="cards">
+            <img id="setaesquerda" onclick="DeslizarParaEsquerda()" class="seta" src="img/setaesquerda.svg">
+            <img id="gif1" class="card" src="img/4gif.gif">
+            <img id="gif2" class="card" src="img/5gif.gif">
+            <img id="gif3" class="card" src="img/1gif.gif">
+            <img id="setadireita" class="seta" onclick="DeslizarParaDireita()" src="img/setadireita.svg">
+
+        </div>
+    </div>
+    <br>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

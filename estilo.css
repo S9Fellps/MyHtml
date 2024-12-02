@@ -1,0 +1,80 @@
+
+#menu ul li {
+    margin-right: 10%;
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    justify-content: right;
+    justify-items: center;            
+    font-size: 15px;
+    font-family:arial black;
+    align-items: center;
+    text-align: justify;
+    list-style-type: none;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+#menu li a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* fazer essa determinação em todos é um boa pratica pois o asterisco garante que vai ser
+   aplicado em todo documento, e assim vc pode ajustar a margem de acordo com sua
+   preferencia */
+h1 {
+    color: #007BFF;
+    font-size: 96px;
+    font-weight: 900;
+    text-decoration: wavy;
+    text-align: center;
+}
+
+h2 {
+    color:  #6C757D;
+    font-size: 60px;
+    font-weight: 300;
+    text-decoration: wavy;
+    text-align: center;
+}
+
+h3 {
+    color:#4169E1;
+    font-size: 40px;
+    font-weight: 300;
+    text-decoration: wavy;
+    text-align: center;
+}
+
+p {
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-style: normal;
+    text-align: justify;
+}
+
+.bg {
+    height: 500px;
+    /*height vem do ingles e significa altura*/
+    width: 100%;
+    /*width vem do ingles e significa largura*/
+    /* espaço determinado para onde a imagem tem que caber */
+
+    background-image: url(https://static.skillshare.com/uploads/video/thumbnails/060630f81d6585e2215f755e71787222/original);
+    /* nao salvei a imagem no computador por isso puxei o URL */
+    background-size: cover;
+    /* o formato cover ajusta da imagem dentro do espaço determinado sem deformar ela mas
+   corta um pedaço, o formato contain faz a imagem aparecer sem corte mas deforma */
+    background-repeat: no-repeat;
+    /* vai garantir que a imagem não vai se repetir dentro do espaço determinado */
+    background-position: center;
+    background-attachment: fixed;
+    /* esse comando faz a imagem ficar fixada e o texto ir passando por cima, não funciona com
+   todo navegador */
+}
