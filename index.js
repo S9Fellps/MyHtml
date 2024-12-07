@@ -27,8 +27,8 @@ function DeslizarParaDireita1() {
     setadireita.style = "display:none;"
     setaesquerda.style = "display:none;"
     setaesquerda2.style = "display:none;"
-    setaesquerda1.style = "display:flex; ,margin-top:50px;"
-    setadireita2.style = "display:flex; ,margin-top:50px;"
+    setaesquerda1.style = "display:flex; margin-top:50px;"
+    setadireita2.style = "display:flex; margin-top:50px;"
 }
 function DeslizarParaDireita2() {
     gif3.style = "display:none;"
@@ -38,7 +38,7 @@ function DeslizarParaDireita2() {
     setadireita.style = "display:none;"
     setaesquerda.style = "display:none;"
     setaesquerda1.style = "display:none;"
-    setaesquerda2.style = "display:flex; ,margin-top:50px;"
+    setaesquerda2.style = "display:flex; margin-top:50px;"
 }
 
 function DeslizarParaEsquerda() {

@@ -74,6 +74,8 @@ h2 {
 .seta {
     margin-top: 50px;
     cursor: pointer;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .seta:hover {
